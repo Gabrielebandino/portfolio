@@ -6,6 +6,8 @@ import {
   Project,
   Education,
   Extras,
+  Creativity,
+  DigitalDiary,
   Contact,
   Navigation,
   Footer,
@@ -42,6 +44,8 @@ function App() {
         <Project />
         <Education />
         <Extras />
+        <Creativity />
+        <DigitalDiary />
         <Contact />
       </FadeIn>
       <Footer />

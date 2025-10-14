@@ -23,6 +23,8 @@ const navItems = [
   ["Projects", "projects"],
   ["Education", "education"],
   ["Extras", "extras"],
+  ["Creativity", "creativity"],
+  ["Digital Diary", "digital-diary"],
   ["Contact", "contact"],
 ];
 
@@ -53,13 +55,11 @@ function Navigation({ parentToChild, modeChange }: any) {
   }, []);
 
   const scrollToSection = (section: string) => {
-    console.log(section);
-    const expertiseElement = document.getElementById(section);
-    if (expertiseElement) {
-      expertiseElement.scrollIntoView({ behavior: "smooth" });
-      console.log("Scrolling to:", expertiseElement); // Debugging: Ensure the element is found
+    const el = document.getElementById(section);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
     } else {
-      console.error('Element with id "expertise" not found'); // Debugging: Log error if element is not found
+      console.error(`Element with id "${section}" not found`);
     }
   };
 
@@ -117,7 +117,7 @@ function Navigation({ parentToChild, modeChange }: any) {
               <Button
                 key={item[0]}
                 onClick={() => scrollToSection(item[1])}
-                sx={{ color: "#fff" }}
+                sx={{ color: mode === "dark" ? "#fff" : "rgba(0,0,0,0.85)" }}
               >
                 {item[0]}
               </Button>

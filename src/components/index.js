@@ -6,6 +6,9 @@ export { default as Timeline } from "./Timeline";
 export { default as Project } from "./Project";
 export { default as Education } from "./Education";
 export { default as Extras } from "./Extras";
+export { default as Creativity } from "./Creativity";
+export { default as VideoPlayer } from "./VideoPlayer";
+export { default as DigitalDiary } from "./DigitalDiary";
 export { default as Contact } from "./Contact";
 
 // How the Process Works:
