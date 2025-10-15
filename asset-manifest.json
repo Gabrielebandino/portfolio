@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.83bdfeee.css",
-    "main.js": "/portfolio/static/js/main.44ad8144.js",
+    "main.css": "/portfolio/static/css/main.db4d1896.css",
+    "main.js": "/portfolio/static/js/main.f84a3934.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/nst.png": "/portfolio/static/media/nst.bb39e733dd1a9bc95ef6.png",
     "static/media/frogger.png": "/portfolio/static/media/frogger.ea515e5df39fe37e51d8.png",
@@ -26,12 +26,12 @@
     "static/media/ielts.svg": "/portfolio/static/media/ielts.5133e5da2d449162d9fafe5a27256b43.svg",
     "static/media/cambridge-c1.svg": "/portfolio/static/media/cambridge-c1.04e0808889951228297c15a9c29d6571.svg",
     "index.html": "/portfolio/index.html",
-    "main.83bdfeee.css.map": "/portfolio/static/css/main.83bdfeee.css.map",
-    "main.44ad8144.js.map": "/portfolio/static/js/main.44ad8144.js.map",
+    "main.db4d1896.css.map": "/portfolio/static/css/main.db4d1896.css.map",
+    "main.f84a3934.js.map": "/portfolio/static/js/main.f84a3934.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83bdfeee.css",
-    "static/js/main.44ad8144.js"
+    "static/css/main.db4d1896.css",
+    "static/js/main.f84a3934.js"
   ]
 }
